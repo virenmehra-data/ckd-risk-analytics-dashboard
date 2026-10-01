@@ -1,6 +1,6 @@
 # CKD Risk Analytics & Dashboard
 
-![CKD Risk Analytics — Selected Excel Outputs](ckd-analysis-preview.svg)
+![CKD Risk Analytics — Selected Excel Outputs](ckd-analysis-preview.png)
 
 > Portfolio visual recreated from the original Excel outputs in the uploaded MIS171 workbook.
 
@@ -114,7 +114,7 @@ The uploaded workbook labels the score thresholds as:
 ```text
 ckd-risk-analytics-dashboard/
 ├── README.md
-├── ckd-analysis-preview.svg
+├── ckd-analysis-preview.png
 ├── analysis_summary.md
 └── key_results.csv
 ```
