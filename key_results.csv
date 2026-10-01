@@ -1,0 +1,17 @@
+metric,group,value,notes
+Patient records,Dataset,250,Total observations used in the CKD case study
+Mean CKD Risk Score,Active,58.98,Physical activity group
+Standard deviation CKD Risk Score,Active,17.81,Physical activity group
+Mean CKD Risk Score,Inactive,54.08,Physical activity group
+Standard deviation CKD Risk Score,Inactive,15.00,Physical activity group
+Mean CKD Risk Score,Typical,59.59,Physical activity group
+Standard deviation CKD Risk Score,Typical,19.36,Physical activity group
+Mean CKD Risk Score,Rural,56.49,Hypothesis test t=4.18 p<0.001
+Mean CKD Risk Score,Urban,59.68,Hypothesis test t=5.99 p<0.001
+R-squared,Final regression,0.76,Approximate
+Adjusted R-squared,Final regression,0.75,Approximate
+Regression coefficient,Diabetes,10.40,p<0.001
+Regression coefficient,Hypertension,8.94,p<0.001
+Regression coefficient,Packed Cell Volume,0.33,p=0.038
+Regression coefficient,Red Blood Cell Count,-1.82,p=0.001
+Regression coefficient,Haemoglobin,-2.81,p=0.020
