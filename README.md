@@ -1,41 +1,36 @@
 # CKD Risk Analytics & Dashboard
 
+![CKD Risk Analytics — Selected Excel Outputs](ckd-analysis-preview.svg)
+
+> Portfolio visual recreated from the original Excel outputs in the uploaded MIS171 workbook.
+
 **Excel · Data Analytics · Statistical Analysis · Regression**
 
 ## Project Overview
 
-This project analyses a **250-patient chronic kidney disease (CKD) dataset** in the context of a hospital renal unit. The work combines an interactive Excel dashboard with descriptive statistics, probability analysis, hypothesis testing, correlation analysis, and multiple regression.
+This project analyses a **250-patient chronic kidney disease (CKD) dataset** in the context of a hospital renal unit. The broader MIS171 work combines Excel-based visual analysis with descriptive statistics, probability analysis, confidence intervals, hypothesis testing, correlation analysis, and regression.
 
-The objective was to identify patterns associated with CKD risk, communicate them visually, and translate the analysis into practical insights for a healthcare decision-making context.
+The objective was to identify patterns associated with CKD risk, communicate them clearly, and translate the analysis into practical insights for a healthcare decision-making context.
 
-## Dashboard
+## Excel Analysis
 
-The Excel dashboard was designed to make CKD risk patterns easy to explore across patient characteristics and clinical indicators.
+The uploaded workbook contains analytical worksheets covering:
 
-Core visuals included:
+- CKD risk-category distribution
+- CKD risk and alcohol-intake cross-tabulation
+- Blood urea analysis by CKD risk
+- Correlation analysis for clinical variables
+- Probability analysis using physical activity and blood pressure
+- 95% confidence intervals for blood glucose
+- Hypothesis testing by residence
 
-- CKD risk-category proportions
-- Average CKD risk score by residence and diabetes status
-- Average blood pressure by CKD risk category
-- Physical activity versus CKD risk
-- Serum creatinine and blood urea analysis
-- Age, red blood cell count, and haemoglobin indicators
-
-Interactive slicers were used for variables including:
-
-- Residence
-- Diabetes Mellitus
-- Hypertension
-- Alcohol Intake
-- Physical Activity
-- CKD Risk Category
+The preview at the top of this README uses the **actual results from that workbook**, reformatted into a cleaner portfolio presentation.
 
 ## Analytical Methods
 
-The project extended beyond dashboarding into statistical analysis using Excel.
+Methods demonstrated across the project include:
 
-Methods included:
-
+- PivotTables and cross-tabulation
 - Descriptive statistics
 - Probability analysis
 - Confidence intervals
@@ -50,6 +45,17 @@ Methods included:
 
 ## Selected Findings
 
+### CKD Risk Distribution
+
+The 250-patient dataset was distributed across the workbook's CKD risk categories as follows:
+
+| CKD Risk Category | Patients | Proportion |
+| --- | ---: | ---: |
+| High | 120 | 48.0% |
+| Low | 14 | 5.6% |
+| Moderate | 66 | 26.4% |
+| Urgent | 50 | 20.0% |
+
 ### Physical Activity
 
 Average CKD Risk Score differed across physical-activity groups:
@@ -60,16 +66,31 @@ Average CKD Risk Score differed across physical-activity groups:
 | Inactive | 54.08 | 15.00 |
 | Typical | 59.59 | 19.36 |
 
+### Blood Glucose
+
+Mean blood-glucose values by CKD risk category were:
+
+| CKD Risk Category | Mean Blood Glucose | 95% CI |
+| --- | ---: | ---: |
+| Low | 265.36 | 203.38–327.33 |
+| Moderate | 287.98 | 260.02–315.95 |
+| High | 286.20 | 263.70–308.70 |
+| Urgent | 257.84 | 223.19–292.49 |
+
 ### Residence
 
-Hypothesis testing found average CKD Risk Scores above 50 for both residence groups in the dataset:
+The analysis found the following average CKD Risk Scores:
 
-- **Rural:** mean 56.49, *t* = 4.18, *p* < 0.001
-- **Urban:** mean 59.68, *t* = 5.99, *p* < 0.001
+- **Rural:** 56.49 across 133 patients
+- **Urban:** 59.68 across 117 patients
+
+The workbook's conclusion reported both group means as significantly above 50 (*p* < 0.001).
 
 ### Regression
 
-The final multiple-regression model explained approximately **76% of the variation in CKD Risk Score** (**R² ≈ 0.76; adjusted R² ≈ 0.75**).
+A separate regression stage of the broader MIS171 project was used to evaluate multiple predictors of CKD Risk Score.
+
+The final model explained approximately **76% of the variation in CKD Risk Score** (**R² ≈ 0.76; adjusted R² ≈ 0.75**).
 
 Selected model results included:
 
@@ -78,31 +99,29 @@ Selected model results included:
 - Packed Cell Volume: coefficient ≈ **+0.33**, *p* = 0.038
 - Red Blood Cell Count: coefficient ≈ **−1.82**, *p* = 0.001
 - Haemoglobin: coefficient ≈ **−2.81**, *p* = 0.020
-- Serum Creatinine and Blood Urea were also positive and statistically significant predictors in the analysis
-
-Age, Blood Pressure, Blood Sugar, and White Blood Cell Count were not statistically significant in the final model.
 
 ## CKD Risk Categories
 
-The dashboard grouped CKD Risk Score into the following categories:
+The uploaded workbook labels the score thresholds as:
 
-- **Low:** below 20
-- **Moderate:** 21–49
-- **High:** 50–74
-- **Very High:** above 75
+- **<30 — Low**
+- **<50 — Moderate**
+- **<75 — High**
+- **>75 — Urgent**
 
 ## Repository Structure
 
 ```text
 ckd-risk-analytics-dashboard/
 ├── README.md
+├── ckd-analysis-preview.svg
 ├── analysis_summary.md
 └── key_results.csv
 ```
 
 ## Skills Demonstrated
 
-**Excel · Dashboard Design · Data Visualisation · PivotTables · Slicers · Descriptive Statistics · Hypothesis Testing · Correlation · Multiple Regression · Data Interpretation · Business Analytics**
+**Excel · Data Visualisation · PivotTables · Descriptive Statistics · Probability · Confidence Intervals · Hypothesis Testing · Correlation · Multiple Regression · Data Interpretation · Business Analytics**
 
 ## Project Context
 
