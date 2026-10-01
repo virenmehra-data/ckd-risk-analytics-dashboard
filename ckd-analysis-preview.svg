@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#ffffff"/>
+<style>
+  .title{font:700 42px Arial,sans-serif;fill:#171717}
+  .sub{font:22px Arial,sans-serif;fill:#666}
+  .pt{font:700 24px Arial,sans-serif;fill:#222}
+  .label{font:17px Arial,sans-serif;fill:#555}
+  .small{font:15px Arial,sans-serif;fill:#555}
+  .value{font:700 16px Arial,sans-serif;fill:#222}
+  .panel{fill:#fafafa;stroke:#d9d9d9;stroke-width:2}
+  .grid{stroke:#dedede;stroke-width:1}
+</style>
+<text x="60" y="65" class="title">CKD Risk Analytics — Selected Excel Outputs</text>
+<text x="62" y="102" class="sub">MIS171 portfolio case study · 250 patient records</text>
+
+<!-- Panel 1 -->
+<rect x="60" y="145" width="710" height="350" rx="16" class="panel"/>
+<text x="90" y="185" class="pt">CKD risk category distribution</text>
+<line x1="130" y1="430" x2="715" y2="430" class="grid"/>
+<line x1="130" y1="350" x2="715" y2="350" class="grid"/>
+<line x1="130" y1="270" x2="715" y2="270" class="grid"/>
+<line x1="130" y1="190" x2="715" y2="190" class="grid"/>
+<text x="92" y="435" class="small">0</text>
+<text x="82" y="355" class="small">40</text>
+<text x="82" y="275" class="small">80</text>
+<text x="72" y="195" class="small">120</text>
+<rect x="170" y="190" width="85" height="240" fill="#4a78c7"/>
+<rect x="310" y="402" width="85" height="28" fill="#4a78c7"/>
+<rect x="450" y="298" width="85" height="132" fill="#4a78c7"/>
+<rect x="590" y="330" width="85" height="100" fill="#4a78c7"/>
+<text x="197" y="180" class="value">120 · 48%</text>
+<text x="330" y="392" class="value">14 · 5.6%</text>
+<text x="467" y="288" class="value">66 · 26.4%</text>
+<text x="607" y="320" class="value">50 · 20%</text>
+<text x="188" y="460" class="label">High</text>
+<text x="333" y="460" class="label">Low</text>
+<text x="451" y="460" class="label">Moderate</text>
+<text x="599" y="460" class="label">Urgent</text>
+
+<!-- Panel 2 -->
+<rect x="830" y="145" width="710" height="350" rx="16" class="panel"/>
+<text x="860" y="185" class="pt">Alcohol intake × CKD risk</text>
+<text x="860" y="215" class="small">Row percentages from the original Excel analysis</text>
+<text x="1040" y="250" class="value">Low</text>
+<text x="1150" y="250" class="value">Moderate</text>
+<text x="1274" y="250" class="value">High</text>
+<text x="1384" y="250" class="value">Urgent</text>
+<text x="880" y="300" class="value">High intake</text>
+<text x="880" y="360" class="value">Moderate</text>
+<text x="880" y="420" class="value">None</text>
+<rect x="1015" y="266" width="105" height="48" fill="#f36b6b"/><text x="1032" y="297" class="value">4.65%</text>
+<rect x="1125" y="266" width="105" height="48" fill="#f6d76d"/><text x="1138" y="297" class="value">29.07%</text>
+<rect x="1235" y="266" width="105" height="48" fill="#a9cc68"/><text x="1248" y="297" class="value">45.35%</text>
+<rect x="1345" y="266" width="105" height="48" fill="#f3aa61"/><text x="1358" y="297" class="value">20.93%</text>
+<rect x="1015" y="326" width="105" height="48" fill="#f36b6b"/><text x="1032" y="357" class="value">5.56%</text>
+<rect x="1125" y="326" width="105" height="48" fill="#f6d76d"/><text x="1138" y="357" class="value">28.89%</text>
+<rect x="1235" y="326" width="105" height="48" fill="#8fc66c"/><text x="1248" y="357" class="value">53.33%</text>
+<rect x="1345" y="326" width="105" height="48" fill="#ef8b64"/><text x="1358" y="357" class="value">12.22%</text>
+<rect x="1015" y="386" width="105" height="48" fill="#f07b69"/><text x="1032" y="417" class="value">6.76%</text>
+<rect x="1125" y="386" width="105" height="48" fill="#f2c76d"/><text x="1138" y="417" class="value">20.27%</text>
+<rect x="1235" y="386" width="105" height="48" fill="#a7cb6b"/><text x="1248" y="417" class="value">44.59%</text>
+<rect x="1345" y="386" width="105" height="48" fill="#f5ba68"/><text x="1358" y="417" class="value">28.38%</text>
+
+<!-- Panel 3 -->
+<rect x="60" y="540" width="710" height="380" rx="16" class="panel"/>
+<text x="90" y="580" class="pt">Blood glucose by CKD risk category</text>
+<text x="90" y="610" class="small">Mean with 95% confidence interval</text>
+<line x1="130" y1="850" x2="715" y2="850" class="grid"/>
+<line x1="130" y1="775" x2="715" y2="775" class="grid"/>
+<line x1="130" y1="700" x2="715" y2="700" class="grid"/>
+<line x1="130" y1="625" x2="715" y2="625" class="grid"/>
+<text x="78" y="855" class="small">200</text><text x="78" y="780" class="small">240</text><text x="78" y="705" class="small">280</text><text x="78" y="630" class="small">320</text>
+<!-- bars scaled from 200 to 330 -->
+<rect x="175" y="728" width="78" height="122" fill="#4a78c7"/>
+<line x1="214" y1="611" x2="214" y2="844" stroke="#333" stroke-width="3"/><line x1="202" y1="611" x2="226" y2="611" stroke="#333" stroke-width="3"/><line x1="202" y1="844" x2="226" y2="844" stroke="#333" stroke-width="3"/>
+<rect x="315" y="686" width="78" height="164" fill="#4a78c7"/>
+<line x1="354" y1="633" x2="354" y2="738" stroke="#333" stroke-width="3"/><line x1="342" y1="633" x2="366" y2="633" stroke="#333" stroke-width="3"/><line x1="342" y1="738" x2="366" y2="738" stroke="#333" stroke-width="3"/>
+<rect x="455" y="690" width="78" height="160" fill="#4a78c7"/>
+<line x1="494" y1="647" x2="494" y2="731" stroke="#333" stroke-width="3"/><line x1="482" y1="647" x2="506" y2="647" stroke="#333" stroke-width="3"/><line x1="482" y1="731" x2="506" y2="731" stroke="#333" stroke-width="3"/>
+<rect x="595" y="742" width="78" height="108" fill="#4a78c7"/>
+<line x1="634" y1="679" x2="634" y2="807" stroke="#333" stroke-width="3"/><line x1="622" y1="679" x2="646" y2="679" stroke="#333" stroke-width="3"/><line x1="622" y1="807" x2="646" y2="807" stroke="#333" stroke-width="3"/>
+<text x="178" y="718" class="value">265.36</text><text x="317" y="676" class="value">287.98</text><text x="457" y="680" class="value">286.20</text><text x="597" y="732" class="value">257.84</text>
+<text x="183" y="882" class="label">Low</text><text x="301" y="882" class="label">Moderate</text><text x="467" y="882" class="label">High</text><text x="595" y="882" class="label">Urgent</text>
+
+<!-- Panel 4 -->
+<rect x="830" y="540" width="710" height="380" rx="16" class="panel"/>
+<text x="860" y="580" class="pt">CKD risk score by residence</text>
+<text x="860" y="610" class="small">Mean CKD Risk Score</text>
+<line x1="920" y1="850" x2="1475" y2="850" class="grid"/>
+<line x1="920" y1="760" x2="1475" y2="760" class="grid"/>
+<line x1="920" y1="670" x2="1475" y2="670" class="grid"/>
+<text x="880" y="855" class="small">54</text><text x="880" y="765" class="small">57</text><text x="880" y="675" class="small">60</text>
+<rect x="1010" y="775" width="135" height="75" fill="#4a78c7"/>
+<rect x="1260" y="680" width="135" height="170" fill="#4a78c7"/>
+<text x="1028" y="765" class="value">56.49</text><text x="1278" y="670" class="value">59.68</text>
+<text x="1032" y="884" class="label">Rural</text><text x="1280" y="884" class="label">Urban</text>
+<text x="1012" y="910" class="small">n = 133</text><text x="1260" y="910" class="small">n = 117</text>
+
+<text x="60" y="970" class="small">Portfolio visual recreated from the uploaded MIS171 workbook using the original Excel results.</text>
+</svg>
